@@ -7,7 +7,8 @@ export type Game = {
     source?: string;              // optional: github repo / twitter / website
     tags: string[];               // e.g. ["Puzzle", "Roguelike", "Web"]
     createdAt: string;            // ISO date: "2026-01-27"
-    cover?: string;               // optional: /covers/xxx.png
+    createdAt: string;            // ISO date: "2026-01-27"
+    cover?: string;               // Path: /covers/slug.jpg (16:9, <100kb). See CONTRIBUTING.md
     featured?: boolean;           // optional
 };
 
