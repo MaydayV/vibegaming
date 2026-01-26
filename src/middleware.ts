@@ -8,5 +8,6 @@ export const config = {
     // Match all pathnames except for:
     // - /api, /_next, /_vercel
     // - . (files with extension like .png, .ico, .txt, .webmanifest)
-    matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
+    // - dynamic assets without extension (icon, apple-icon, opengraph-image)
+    matcher: ['/((?!api|_next|_vercel|.*\\..*|icon|apple-icon|opengraph-image).*)']
 };
