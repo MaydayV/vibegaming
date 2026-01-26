@@ -12,27 +12,29 @@ export default function AnimatedSubtitle({ line1, line2 }: AnimatedSubtitleProps
     const [isTyping, setIsTyping] = useState(false);
 
     useEffect(() => {
-        // Wait for Line 1 to partially dissolve before starting Line 2
+        console.log('AnimatedSubtitle mounted. Line 1:', line1);
         const startTimer = setTimeout(() => {
+            console.log('Starting typewriter for Line 2...');
             setIsTyping(true);
-        }, 1000);
+        }, 1200); // Increased delay slightly for better sync with Line 1
 
         return () => clearTimeout(startTimer);
-    }, []);
+    }, [line1]);
 
     useEffect(() => {
         if (!isTyping) return;
 
         let index = 0;
         const typingInterval = setInterval(() => {
-            setDisplayedLine2(line2.slice(0, index + 1));
-            index++;
-
-            if (index >= line2.length) {
+            if (index < line2.length) {
+                setDisplayedLine2(line2.slice(0, index + 1));
+                index++;
+            } else {
                 clearInterval(typingInterval);
                 setIsTyping(false);
+                console.log('Typewriter finished.');
             }
-        }, 60);
+        }, 70); // Slightly slower for better readability
 
         return () => clearInterval(typingInterval);
     }, [isTyping, line2]);
@@ -45,15 +47,16 @@ export default function AnimatedSubtitle({ line1, line2 }: AnimatedSubtitleProps
             </span>
 
             {/* Line 2: Pixel Typewriter */}
-            <div className="min-h-[2rem] flex items-center justify-center">
+            <div className="min-h-[2rem] flex items-center justify-center font-mono">
                 <span
-                    className="text-lg sm:text-xl text-neon-cyan font-mono tracking-wider block"
+                    className="text-lg sm:text-xl text-neon-cyan tracking-wider"
                     style={{ textShadow: '0 0 10px rgba(0, 245, 255, 0.4)' }}
                 >
                     {displayedLine2}
-                    {(isTyping || displayedLine2.length === line2.length) && (
-                        <span className="animate-pulse inline-block ml-1">_</span>
-                    )}
+                    {/* Retro Blinking Cursor: On/Off instead of pulse */}
+                    <span className="inline-block ml-1 opacity-100 animate-[blink_1s_steps(2)_infinite]">
+                        {displayedLine2.length < line2.length || isTyping ? '▊' : '_'}
+                    </span>
                 </span>
             </div>
         </div>
