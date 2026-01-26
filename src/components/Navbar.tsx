@@ -29,7 +29,7 @@ export default function Navbar() {
                     <div className="flex items-center space-x-4">
                         <LanguageSwitch />
                         <Link
-                            href="https://github.com/your/repo" // TODO: Update with real repo
+                            href="https://github.com/MaydayV/vibegaming"
                             target="_blank"
                             className="hidden md:inline-flex items-center px-4 py-1.5 border border-neon-pink/50 text-neon-pink rounded text-sm font-medium hover:bg-neon-pink/10 hover:shadow-[0_0_10px_rgba(255,43,214,0.3)] transition-all"
                         >

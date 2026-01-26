@@ -35,7 +35,7 @@ export default function HomePage() {
                                 {t('ctaExplore')}
                             </Link>
                             <Link
-                                href="https://github.com/your/repo" // TODO
+                                href="https://github.com/MaydayV/vibegaming"
                                 target="_blank"
                                 className="px-8 py-3 border border-white/10 glass-panel rounded-lg hover:bg-white/5 transition-all flex items-center gap-2 text-gray-300"
                             >

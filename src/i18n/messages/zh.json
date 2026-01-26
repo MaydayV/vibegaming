@@ -45,6 +45,7 @@
         "c4": "保持好奇与善意",
         "submitTitle": "提交你的游戏",
         "submitBody": "想要你的游戏被收录？编辑 src/content/games.ts 并提交 Pull Request 即可。",
+        "ctaSubmit": "提交你的游戏",
         "faqTitle": "常见问题",
         "faq1Q": "我需要是专业开发者吗？",
         "faq1A": "不需要！我们欢迎新手创作者、Jam 参赛作品以及简单的原型。",

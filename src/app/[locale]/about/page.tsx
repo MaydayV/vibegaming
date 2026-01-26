@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { ArrowRight } from 'lucide-react';
 
 export default function AboutPage() {
     const t = useTranslations('about');
@@ -44,10 +45,22 @@ export default function AboutPage() {
                     </section>
 
                     {/* Submit */}
-                    <section className="text-center py-12 border-t border-white/10">
-                        <h2 className="text-2xl font-bold mb-4 text-white">{t('submitTitle')}</h2>
-                        <p className="text-gray-400 mb-8">{t('submitBody')}</p>
-                        <p className="text-sm text-gray-600">{t('contact')}</p>
+                    <section className="text-center py-12 border-t border-white/10 space-y-6">
+                        <h2 className="text-2xl font-bold text-white">{t('submitTitle')}</h2>
+                        <p className="text-gray-400 max-w-xl mx-auto">{t('submitBody')}</p>
+
+                        <div className="pt-4">
+                            <a
+                                href="https://github.com/MaydayV/vibegaming"
+                                target="_blank"
+                                className="inline-flex items-center gap-2 px-8 py-3 bg-white/5 border border-white/10 text-white font-bold rounded-lg hover:bg-white/10 hover:border-neon-cyan/50 transition-all group"
+                            >
+                                <span>{t('ctaSubmit')}</span>
+                                <ArrowRight className="group-hover:translate-x-1 transition-transform" size={18} />
+                            </a>
+                        </div>
+
+                        <p className="text-xs text-gray-600 pt-4">{t('contact')}</p>
                     </section>
                 </div>
             </main>

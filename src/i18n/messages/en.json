@@ -45,6 +45,7 @@
         "c4": "Good vibes, curious minds",
         "submitTitle": "Submit your game",
         "submitBody": "Want your game featured? Add it to src/content/games.ts and open a Pull Request.",
+        "ctaSubmit": "Submit Your Game",
         "faqTitle": "Frequently Asked Questions",
         "faq1Q": "Do I need to be a pro developer?",
         "faq1A": "No! We welcome first-time creators, jam submissions, and simple prototypes.",
