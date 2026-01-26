@@ -16,12 +16,12 @@ export const games: Game[] = [
         slug: "neon-drift",
         title: "Neon Drift",
         tagline: { en: "A 60-second cyber racer made with AI.", zh: "AI 制作的 60 秒赛博竞速。" },
-        url: "https://example.com/neon-drift",
-        author: "YourName",
-        source: "https://github.com/your/repo",
+        url: "https://freegames.org/neon-drift/",
+        author: "MaydayV",
+        source: "https://github.com/maydayv/neon-drift",
         tags: ["Racing", "Arcade", "Web"],
         createdAt: "2026-01-27",
-        cover: "/covers/neon-drift.png",
+        cover: "/covers/neon-drift.jpg",
         featured: true
     }
 ];
