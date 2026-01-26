@@ -8,7 +8,8 @@
     },
     "home": {
         "heroTitle": "VibeGam.ing",
-        "heroSubtitle": "A curated hub of AI-made games. Play, explore, and publish yours with a simple PR.",
+        "heroSubtitle1": "A curated hub of AI-made games.",
+        "heroSubtitle2": "Play, explore, and publish yours with a simple PR.",
         "ctaExplore": "Explore Games",
         "ctaSubmit": "Submit Your Game",
         "value1Title": "Built by the community",

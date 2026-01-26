@@ -4,6 +4,7 @@ import { Link } from '@/i18n/routing';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import GameGrid from '@/components/GameGrid';
+import AnimatedSubtitle from '@/components/AnimatedSubtitle';
 import { ArrowRight, GitFork, FileCode, GitPullRequest, Zap } from 'lucide-react';
 
 export default function HomePage() {
@@ -23,9 +24,10 @@ export default function HomePage() {
                         <h1 className="text-5xl sm:text-7xl font-bold tracking-tighter neon-text-glow text-neon-cyan">
                             {t('heroTitle')}
                         </h1>
-                        <p className="text-xl sm:text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                            {t('heroSubtitle')}
-                        </p>
+                        <AnimatedSubtitle
+                            line1={t('heroSubtitle1')}
+                            line2={t('heroSubtitle2')}
+                        />
 
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
                             <Link

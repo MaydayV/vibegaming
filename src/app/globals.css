@@ -6,7 +6,7 @@
   --foreground: #EAF2FF;
   --panel: rgba(10, 14, 25, 0.55);
   --muted: rgba(234, 242, 255, 0.68);
-  
+
   /* Neon Colors */
   --neon-cyan: #00F5FF;
   --neon-pink: #FF2BD6;
@@ -25,7 +25,7 @@
   --color-neon-purple: var(--neon-purple);
   --color-neon-green: var(--neon-green);
   --color-warning: var(--warning);
-  
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -34,12 +34,12 @@ body {
   background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), sans-serif;
-  
+
   /* Radial gradient background */
-  background-image: 
+  background-image:
     radial-gradient(circle at 50% 0%, rgba(20, 30, 50, 0.4) 0%, transparent 60%),
     radial-gradient(circle at 80% 20%, rgba(139, 92, 255, 0.05) 0%, transparent 40%);
-  
+
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -52,12 +52,47 @@ body {
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.08);
   }
-  
+
   .neon-border {
     position: relative;
   }
-  
+
   .neon-text-glow {
     text-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
+  }
+
+  /* Animations */
+  @keyframes dissolve {
+    from {
+      filter: blur(12px);
+      opacity: 0;
+      transform: translateY(5px);
+    }
+
+    to {
+      filter: blur(0);
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes reveal {
+    from {
+      clip-path: inset(0 100% 0 0);
+      opacity: 0;
+    }
+
+    to {
+      clip-path: inset(0 0 0 0);
+      opacity: 1;
+    }
+  }
+
+  .animate-dissolve {
+    animation: dissolve 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .animate-reveal {
+    animation: reveal 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
 }

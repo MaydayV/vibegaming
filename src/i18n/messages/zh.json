@@ -8,7 +8,8 @@
     },
     "home": {
         "heroTitle": "VibeGam.ing",
-        "heroSubtitle": "AI 创作游戏的精选集合。即点即玩，提交一个 PR 就能发布你的作品。",
+        "heroSubtitle1": "AI 创作游戏的精选集合。",
+        "heroSubtitle2": "即点即玩，提交一个 PR 就能发布你的作品。",
         "ctaExplore": "浏览游戏",
         "ctaSubmit": "提交你的游戏",
         "value1Title": "社区共建",
