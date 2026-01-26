@@ -1,0 +1,59 @@
+{
+    "nav": {
+        "code": "zh",
+        "home": "首页",
+        "games": "游戏库",
+        "about": "关于",
+        "submit": "提交"
+    },
+    "home": {
+        "heroTitle": "VibeGam.ing",
+        "heroSubtitle": "AI 创作游戏的精选集合。即点即玩，提交一个 PR 就能发布你的作品。",
+        "ctaExplore": "浏览游戏",
+        "ctaSubmit": "提交我的游戏",
+        "value1Title": "社区共建",
+        "value1Body": "所有游戏都通过 Pull Request 提交，公开、可审阅、可追溯",
+        "value2Title": "发现更轻松",
+        "value2Body": "卡片式画廊 + 渐进加载，直达可玩链接",
+        "value3Title": "对创作者友好",
+        "value3Body": "原型、Jam 作品、完整发布都欢迎，补充封面/标签/一句话介绍即可",
+        "howTitle": "流程",
+        "how1": "Fork 仓库",
+        "how2": "编辑 games.ts",
+        "how3": "提交 PR",
+        "how4": "合并后自动上线",
+        "footerNote": "不设门槛，只要好玩，就值得被看见。"
+    },
+    "games": {
+        "title": "游戏库",
+        "subtitle_desc": "探索 AI 创作的各类游戏：小实验、Jam 作品、以及完整发布。",
+        "subtitle_action": "点击卡片即可开玩",
+        "play": "开玩",
+        "by": "作者：",
+        "loadingMore": "正在加载更多游戏…",
+        "empty": "还没有游戏，来提交第一个吧。",
+        "externalHint": "外部链接将在新标签页打开。"
+    },
+    "about": {
+        "title": "关于 VibeGam.ing",
+        "p1": "VibeGam.ing 是一个不断增长的游戏画廊，收录由 AI 参与创作的作品——从一晚上的奇怪原型，到打磨得很完整的世界。",
+        "p2": "我们相信理解一种新媒介最好的方式是：亲自去玩。所以我们把提交流程做到极简：改一个文件，发一个 PR，你的游戏就会成为集合的一部分。",
+        "celebrateTitle": "我们推崇",
+        "c1": "可玩的作品胜过噱头",
+        "c2": "清晰署名与作者链接",
+        "c3": "原型、Jam、成品都欢迎",
+        "c4": "保持好奇与善意",
+        "submitTitle": "提交你的游戏",
+        "submitBody": "想要你的游戏被收录？编辑 src/content/games.ts 并提交 Pull Request 即可。",
+        "faqTitle": "常见问题",
+        "faq1Q": "我需要是专业开发者吗？",
+        "faq1A": "不需要！我们欢迎新手创作者、Jam 参赛作品以及简单的原型。",
+        "faq2Q": "必须是 100% AI 生成的吗？",
+        "faq2A": "不是。只要 AI 在代码、美术、音频或设计中发挥了重要作用，我们就欢迎。",
+        "faq3Q": "如何更新我的游戏信息？",
+        "faq3A": "只需再次提交 PR 修改 games.ts 即可。",
+        "faq4Q": "我可以提交非游戏的 AI 实验吗？",
+        "faq4A": "当然！互动艺术、音乐玩具和可视化作品都非常欢迎。",
+        "contact": "问题或合作建议：请在 GitHub 提 Issue。"
+    }
+}

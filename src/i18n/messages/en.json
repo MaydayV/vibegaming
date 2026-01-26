@@ -1,0 +1,59 @@
+{
+    "nav": {
+        "code": "en",
+        "home": "Home",
+        "games": "Games",
+        "about": "About",
+        "submit": "Submit"
+    },
+    "home": {
+        "heroTitle": "VibeGam.ing",
+        "heroSubtitle": "A curated hub of AI-made games. Play, explore, and publish yours with a simple PR.",
+        "ctaExplore": "Explore Games",
+        "ctaSubmit": "Submit Your Game",
+        "value1Title": "Built by the community",
+        "value1Body": "Every game here is submitted via Pull Request — transparent, reviewable, and versioned.",
+        "value2Title": "Fast discovery, zero friction",
+        "value2Body": "A clean card gallery, progressive loading, and direct links to playable builds.",
+        "value3Title": "Designed for creators",
+        "value3Body": "Ship prototypes, jam entries, or polished releases. Add a cover, tags, and a short tagline — done.",
+        "howTitle": "How it works",
+        "how1": "Fork the repo",
+        "how2": "Add your game to games.ts",
+        "how3": "Open a PR",
+        "how4": "Merge → Live on vibegam.ing",
+        "footerNote": "No gatekeeping. Just good vibes and playable builds."
+    },
+    "games": {
+        "title": "Games",
+        "subtitle_desc": "Discover AI-made games across genres — bite-sized experiments, jam builds, and polished releases.",
+        "subtitle_action": "Click any card to play.",
+        "play": "Play",
+        "by": "by",
+        "loadingMore": "Loading more games…",
+        "empty": "No games yet. Be the first to submit one.",
+        "externalHint": "External links open in a new tab."
+    },
+    "about": {
+        "title": "About VibeGam.ing",
+        "p1": "VibeGam.ing is a living gallery of games made with the help of AI — from weird one-night prototypes to surprisingly polished worlds.",
+        "p2": "We believe the best way to understand a new creative medium is to play it. That’s why we keep submissions simple: edit one file, open a PR, and your game becomes part of the collection.",
+        "celebrateTitle": "What we celebrate",
+        "c1": "Playable builds over hype",
+        "c2": "Clear credit and links to creators",
+        "c3": "Experiments, jams, and finished titles",
+        "c4": "Good vibes, curious minds",
+        "submitTitle": "Submit your game",
+        "submitBody": "Want your game featured? Add it to src/content/games.ts and open a Pull Request.",
+        "faqTitle": "Frequently Asked Questions",
+        "faq1Q": "Do I need to be a pro developer?",
+        "faq1A": "No! We welcome first-time creators, jam submissions, and simple prototypes.",
+        "faq2Q": "Does it have to be 100% AI generated?",
+        "faq2A": "No. We showcase games where AI played a significant role in code, art, audio, or design.",
+        "faq3Q": "How do I update my game?",
+        "faq3A": "Just submit another PR with the changes to games.ts.",
+        "faq4Q": "Can I submit non-game AI experiments?",
+        "faq4A": "Yes! Interactive art, music toys, and visualizers are all welcome.",
+        "contact": "Questions or partnerships: open an issue on GitHub."
+    }
+}
