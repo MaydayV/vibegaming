@@ -96,4 +96,20 @@ body {
   .animate-reveal {
     animation: reveal 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
+
+  @keyframes blink {
+
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 1s steps(2) infinite;
+  }
 }
