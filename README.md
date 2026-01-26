@@ -1,6 +1,6 @@
 # VibeGam.ing
 
-[![Vercel](https://vercel.com/button)](https://vibegam.ing)
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white)](https://vibegam.ing)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/MaydayV/vibegaming?style=social)](https://github.com/MaydayV/vibegaming)
 
