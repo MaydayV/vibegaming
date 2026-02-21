@@ -92,5 +92,18 @@ export const games: Game[] = [
         tags: ["Social", "Multiplayer", "Casual", "Web"],
         createdAt: "2026-02-21",
         cover: "/covers/happy-parking.jpg"
+    },
+    {
+        slug: "cute-pet-brawl",
+        title: "Cute Pet Brawl",
+        tagline: {
+            en: "AI-generated turn-based pet battle H5 game — collect, evolve, equip, and fight with 10 unique elemental pets!",
+            zh: "萌宠乱斗 — AI生成的回合制宠物对战H5游戏，收集、进化、装备、升星，10种元素萌宠等你来战！"
+        },
+        url: "http://luandou.weixin-vip.cn",
+        author: "abczsl520",
+        tags: ["RPG", "Battle", "Pet", "Multiplayer", "Web"],
+        createdAt: "2026-02-21",
+        cover: "/covers/cute-pet-brawl.jpg"
     }
 ];
