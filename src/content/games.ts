@@ -79,5 +79,18 @@ export const games: Game[] = [
         tags: ["Puzzle", "Physics", "Claude", "Web"],
         createdAt: "2026-02-02",
         cover: "/covers/potential-energy.jpg"
+    },
+    {
+        slug: "happy-parking",
+        title: "Happy Parking",
+        tagline: {
+            en: "A multiplayer social parking game inspired by classic QQ Parking Wars — park at friends' streets, earn coins, and slap tickets!",
+            zh: "欢乐车位 — 多人联机停车社交游戏，去好友街道停车赚钱、贴罚单抢金币！"
+        },
+        url: "http://parking.weixin-vip.cn",
+        author: "abczsl520",
+        tags: ["Social", "Multiplayer", "Casual", "Web"],
+        createdAt: "2026-02-21",
+        cover: "/covers/happy-parking.jpg"
     }
 ];
