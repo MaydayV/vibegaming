@@ -92,5 +92,18 @@ export const games: Game[] = [
         tags: ["Social", "Multiplayer", "Casual", "Web"],
         createdAt: "2026-02-21",
         cover: "/covers/happy-parking.jpg"
+    },
+    {
+        slug: "divine-realm-gacha",
+        title: "Divine Realm Gacha",
+        tagline: {
+            en: "A hilariously deceptive gacha game that parodies mobile ad scams — fake rates, flashy pulls, and 'one more try' psychology!",
+            zh: "神域传说 — 恶搞短视频虚假广告的抽卡游戏，虚假概率、华丽开箱、保底机制，让你欲罢不能！"
+        },
+        url: "http://chouka.weixin-vip.cn",
+        author: "abczsl520",
+        tags: ["Gacha", "Casual", "Satire", "Web"],
+        createdAt: "2026-02-21",
+        cover: "/covers/divine-realm-gacha.jpg"
     }
 ];
