@@ -6,6 +6,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import type { Metadata } from 'next';
 import PwaHandler from '@/components/PwaHandler';
+import RetroAudio from '@/components/RetroAudio';
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -79,6 +80,7 @@ export default async function LocaleLayout({
             >
                 <NextIntlClientProvider messages={messages}>
                     <PwaHandler />
+                    <RetroAudio />
                     {children}
                 </NextIntlClientProvider>
             </body>
