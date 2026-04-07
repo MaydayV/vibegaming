@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a2e"/>
+      <stop offset="100%" style="stop-color:#1a1a4e"/>
+    </linearGradient>
+    <linearGradient id="snake" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff88"/>
+      <stop offset="50%" style="stop-color:#00ccff"/>
+      <stop offset="100%" style="stop-color:#aa66ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="225" fill="url(#bg)"/>
+  <!-- Grid -->
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="0.5">
+    <line x1="0" y1="50" x2="400" y2="50"/>
+    <line x1="0" y1="100" x2="400" y2="100"/>
+    <line x1="0" y1="150" x2="400" y2="150"/>
+    <line x1="0" y1="200" x2="400" y2="200"/>
+    <line x1="50" y1="0" x2="50" y2="225"/>
+    <line x1="100" y1="0" x2="100" y2="225"/>
+    <line x1="150" y1="0" x2="150" y2="225"/>
+    <line x1="200" y1="0" x2="200" y2="225"/>
+    <line x1="250" y1="0" x2="250" y2="225"/>
+    <line x1="300" y1="0" x2="300" y2="225"/>
+    <line x1="350" y1="0" x2="350" y2="225"/>
+  </g>
+  <!-- Food dots -->
+  <circle cx="80" cy="60" r="4" fill="#ff4466" opacity="0.7"/>
+  <circle cx="320" cy="40" r="3" fill="#ffaa00" opacity="0.6"/>
+  <circle cx="150" cy="180" r="5" fill="#00ff88" opacity="0.7"/>
+  <circle cx="280" cy="150" r="3" fill="#aa66ff" opacity="0.6"/>
+  <circle cx="350" cy="170" r="4" fill="#00ccff" opacity="0.7"/>
+  <circle cx="60" cy="140" r="3" fill="#ff88aa" opacity="0.5"/>
+  <!-- Snake body -->
+  <g filter="url(#glow)">
+    <path d="M80,112 Q120,70 170,90 Q220,110 260,85 Q300,60 330,100" stroke="url(#snake)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Snake head -->
+  <circle cx="330" cy="100" r="12" fill="#00ff88" filter="url(#glow)"/>
+  <!-- Eyes -->
+  <circle cx="335" cy="95" r="4" fill="white"/>
+  <circle cx="335" cy="105" r="4" fill="white"/>
+  <circle cx="337" cy="95" r="2" fill="#111"/>
+  <circle cx="337" cy="105" r="2" fill="#111"/>
+  <!-- Enemy snake (red) -->
+  <g opacity="0.6">
+    <path d="M300,190 Q260,170 230,185 Q200,200 170,175" stroke="#ff4466" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle cx="170" cy="175" r="8" fill="#ff4466"/>
+    <circle cx="166" cy="172" r="2.5" fill="white"/>
+    <circle cx="166" cy="178" r="2.5" fill="white"/>
+    <circle cx="164" cy="172" r="1.2" fill="#111"/>
+    <circle cx="164" cy="178" r="1.2" fill="#111"/>
+  </g>
+</svg>

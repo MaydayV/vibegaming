@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a0e"/>
+      <stop offset="50%" style="stop-color:#2d1520"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="50%" cy="40%"><stop offset="0%" style="stop-color:#e74c3c;stop-opacity:0.25"/><stop offset="100%" style="stop-color:transparent"/></radialGradient>
+    <radialGradient id="g2" cx="30%" cy="70%"><stop offset="0%" style="stop-color:#f39c12;stop-opacity:0.15"/><stop offset="100%" style="stop-color:transparent"/></radialGradient>
+    <radialGradient id="spot" cx="50%" cy="50%"><stop offset="0%" style="stop-color:#fff;stop-opacity:0.8"/><stop offset="100%" style="stop-color:#fff;stop-opacity:0"/></radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#g1)"/>
+  <rect width="800" height="500" fill="url(#g2)"/>
+  <!-- 星星 -->
+  <circle cx="100" cy="50" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="250" cy="80" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="550" cy="45" r="2" fill="#fff" opacity="0.7"/>
+  <circle cx="700" cy="70" r="1.5" fill="#fff" opacity="0.4"/>
+  <circle cx="400" cy="30" r="1" fill="#fff" opacity="0.6"/>
+  <!-- 舞台聚光灯 -->
+  <polygon points="400,0 300,400 500,400" fill="url(#spot)" opacity="0.06"/>
+  <polygon points="200,0 150,400 250,400" fill="url(#spot)" opacity="0.03"/>
+  <polygon points="600,0 550,400 650,400" fill="url(#spot)" opacity="0.03"/>
+  <!-- 舞台地面 -->
+  <rect x="50" y="370" width="700" height="80" rx="8" fill="#1a1028" opacity="0.8"/>
+  <rect x="50" y="368" width="700" height="4" rx="2" fill="#e74c3c" opacity="0.5"/>
+  <!-- 答题台1 - 龙虾选手(左) -->
+  <g transform="translate(130,200)">
+    <!-- 答题台 -->
+    <rect x="0" y="130" width="100" height="50" rx="6" fill="#2a1a3e"/>
+    <rect x="5" y="135" width="90" height="40" rx="4" fill="#3a2a50"/>
+    <rect x="15" y="145" width="70" height="20" rx="3" fill="#1a1028"/>
+    <text x="50" y="160" text-anchor="middle" font-size="12" fill="#e74c3c" font-weight="bold" font-family="monospace">P1</text>
+    <!-- 龙虾 -->
+    <ellipse cx="50" cy="100" rx="30" ry="22" fill="#e74c3c"/>
+    <ellipse cx="50" cy="100" rx="25" ry="18" fill="#ef5350"/>
+    <circle cx="40" cy="90" r="5" fill="#fff"/>
+    <circle cx="60" cy="90" r="5" fill="#fff"/>
+    <circle cx="41" cy="91" r="3" fill="#333"/>
+    <circle cx="61" cy="91" r="3" fill="#333"/>
+    <!-- 钳子 -->
+    <path d="M15,95 Q0,80 5,70 Q10,65 18,72 Q12,80 20,90" fill="#e74c3c"/>
+    <path d="M85,95 Q100,80 95,70 Q90,65 82,72 Q88,80 80,90" fill="#e74c3c"/>
+    <!-- 触须 -->
+    <path d="M38,82 Q30,60 20,50" stroke="#e74c3c" stroke-width="2" fill="none"/>
+    <path d="M62,82 Q70,60 80,50" stroke="#e74c3c" stroke-width="2" fill="none"/>
+    <!-- ✓ 答对 -->
+    <circle cx="85" cy="70" r="14" fill="#27ae60" opacity="0.9"/>
+    <path d="M78,70 L83,76 L93,64" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- 答题台2 - 龙虾选手(中) 被淘汰 -->
+  <g transform="translate(340,190)">
+    <rect x="0" y="140" width="100" height="50" rx="6" fill="#2a1a3e"/>
+    <rect x="5" y="145" width="90" height="40" rx="4" fill="#3a2a50"/>
+    <rect x="15" y="155" width="70" height="20" rx="3" fill="#1a1028"/>
+    <text x="50" y="170" text-anchor="middle" font-size="12" fill="#f39c12" font-weight="bold" font-family="monospace">P2</text>
+    <!-- 龙虾(灰色=淘汰) -->
+    <ellipse cx="50" cy="110" rx="30" ry="22" fill="#666" opacity="0.6"/>
+    <ellipse cx="50" cy="110" rx="25" ry="18" fill="#777" opacity="0.6"/>
+    <circle cx="40" cy="100" r="5" fill="#999" opacity="0.6"/>
+    <circle cx="60" cy="100" r="5" fill="#999" opacity="0.6"/>
+    <text x="40" y="104" font-size="8" fill="#333" opacity="0.6">×</text>
+    <text x="60" y="104" font-size="8" fill="#333" opacity="0.6">×</text>
+    <path d="M15,105 Q0,90 5,80 Q10,75 18,82 Q12,90 20,100" fill="#666" opacity="0.6"/>
+    <path d="M85,105 Q100,90 95,80 Q90,75 82,82 Q88,90 80,100" fill="#666" opacity="0.6"/>
+    <!-- ✗ 答错 -->
+    <circle cx="85" cy="80" r="14" fill="#e74c3c" opacity="0.9"/>
+    <path d="M79,74 L91,86 M91,74 L79,86" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- 淘汰文字 -->
+    <text x="50" y="80" text-anchor="middle" font-size="14" fill="#e74c3c" font-weight="bold" opacity="0.7" font-family="sans-serif" transform="rotate(-15,50,80)">OUT!</text>
+  </g>
+  <!-- 答题台3 - 龙虾选手(右) -->
+  <g transform="translate(550,200)">
+    <rect x="0" y="130" width="100" height="50" rx="6" fill="#2a1a3e"/>
+    <rect x="5" y="135" width="90" height="40" rx="4" fill="#3a2a50"/>
+    <rect x="15" y="145" width="70" height="20" rx="3" fill="#1a1028"/>
+    <text x="50" y="160" text-anchor="middle" font-size="12" fill="#f39c12" font-weight="bold" font-family="monospace">P3</text>
+    <!-- 龙虾 -->
+    <ellipse cx="50" cy="100" rx="30" ry="22" fill="#e74c3c"/>
+    <ellipse cx="50" cy="100" rx="25" ry="18" fill="#ef5350"/>
+    <circle cx="40" cy="90" r="5" fill="#fff"/>
+    <circle cx="60" cy="90" r="5" fill="#fff"/>
+    <circle cx="41" cy="91" r="3" fill="#333"/>
+    <circle cx="61" cy="91" r="3" fill="#333"/>
+    <path d="M15,95 Q0,80 5,70 Q10,65 18,72 Q12,80 20,90" fill="#e74c3c"/>
+    <path d="M85,95 Q100,80 95,70 Q90,65 82,72 Q88,80 80,90" fill="#e74c3c"/>
+    <path d="M38,82 Q30,60 20,50" stroke="#e74c3c" stroke-width="2" fill="none"/>
+    <path d="M62,82 Q70,60 80,50" stroke="#e74c3c" stroke-width="2" fill="none"/>
+    <!-- ? 思考中 -->
+    <text x="80" y="65" font-size="28" fill="#f39c12" font-weight="bold" opacity="0.8">?</text>
+  </g>
+  <!-- 顶部问题框 -->
+  <g transform="translate(200,50)">
+    <rect x="0" y="0" width="400" height="60" rx="10" fill="#2a1a3e" stroke="#e74c3c" stroke-width="2" opacity="0.9"/>
+    <text x="200" y="25" text-anchor="middle" font-size="13" fill="rgba(255,255,255,0.5)" font-family="sans-serif">Q: 世界上最大的龙虾有多重？</text>
+    <g transform="translate(30,35)">
+      <rect x="0" y="0" width="80" height="18" rx="4" fill="#27ae60" opacity="0.8"/>
+      <text x="40" y="13" text-anchor="middle" font-size="10" fill="#fff" font-family="sans-serif">A. 20kg ✓</text>
+    </g>
+    <g transform="translate(120,35)">
+      <rect x="0" y="0" width="80" height="18" rx="4" fill="#555" opacity="0.5"/>
+      <text x="40" y="13" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.5)" font-family="sans-serif">B. 5kg</text>
+    </g>
+    <g transform="translate(210,35)">
+      <rect x="0" y="0" width="80" height="18" rx="4" fill="#555" opacity="0.5"/>
+      <text x="40" y="13" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.5)" font-family="sans-serif">C. 50kg</text>
+    </g>
+    <g transform="translate(300,35)">
+      <rect x="0" y="0" width="80" height="18" rx="4" fill="#e74c3c" opacity="0.6"/>
+      <text x="40" y="13" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.7)" font-family="sans-serif">D. 10kg ✗</text>
+    </g>
+  </g>
+  <!-- 倒计时 -->
+  <g transform="translate(370,130)">
+    <circle cx="30" cy="20" r="22" fill="none" stroke="#f39c12" stroke-width="3" opacity="0.7"/>
+    <circle cx="30" cy="20" r="22" fill="none" stroke="#e74c3c" stroke-width="3" stroke-dasharray="100" stroke-dashoffset="30" opacity="0.9"/>
+    <text x="30" y="26" text-anchor="middle" font-size="18" fill="#f39c12" font-weight="bold" font-family="monospace">7</text>
+  </g>
+  <!-- 底部文字 -->
+  <text x="400" y="475" text-anchor="middle" font-size="20" font-weight="bold" fill="rgba(255,255,255,0.12)" font-family="sans-serif">LOBSTER QUIZ</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="225" fill="url(#bg)" rx="8"/>
+  <!-- 西瓜 -->
+  <circle cx="200" cy="105" r="60" fill="#16a34a"/>
+  <circle cx="200" cy="105" r="52" fill="#22c55e"/>
+  <path d="M200 53 Q210 80 200 105 Q190 80 200 53" fill="#15803d" opacity="0.5"/>
+  <path d="M155 80 Q180 90 200 105 Q175 100 155 80" fill="#15803d" opacity="0.4"/>
+  <path d="M245 80 Q220 90 200 105 Q225 100 245 80" fill="#15803d" opacity="0.4"/>
+  <!-- 高光 -->
+  <ellipse cx="180" cy="85" rx="15" ry="10" fill="white" opacity="0.2"/>
+  <!-- 小水果 -->
+  <circle cx="100" cy="160" r="16" fill="#8B5CF6" opacity="0.8"/>
+  <circle cx="140" cy="175" r="20" fill="#EF4444" opacity="0.8"/>
+  <circle cx="260" cy="170" r="24" fill="#F97316" opacity="0.8"/>
+  <circle cx="310" cy="155" r="18" fill="#FDE047" opacity="0.8"/>
+  <circle cx="80" cy="70" r="12" fill="#84CC16" opacity="0.5"/>
+  <circle cx="320" cy="80" r="14" fill="#DC2626" opacity="0.5"/>
+  <!-- 文字 -->
+  <text x="200" y="205" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="white" opacity="0.7">🍉 合成大西瓜</text>
+</svg>

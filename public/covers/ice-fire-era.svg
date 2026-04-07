@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#1a0a2e"/>
+    </linearGradient>
+    <linearGradient id="fire" x1="0.5" y1="1" x2="0.5" y2="0">
+      <stop offset="0%" stop-color="#ff4500"/>
+      <stop offset="50%" stop-color="#ff8c00"/>
+      <stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+    <linearGradient id="ice" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4fc3f7"/>
+      <stop offset="100%" stop-color="#e1f5fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Snow ground -->
+  <rect x="0" y="220" width="400" height="80" fill="#c8dce8" opacity="0.3"/>
+  <rect x="0" y="240" width="400" height="60" fill="#e8f0f8" opacity="0.2"/>
+  <!-- Pixel buildings (left) -->
+  <g fill="#2a3a5c" opacity="0.6">
+    <rect x="30" y="180" width="24" height="40"/>
+    <rect x="34" y="172" width="16" height="8"/>
+    <rect x="60" y="190" width="20" height="30"/>
+    <rect x="64" y="184" width="12" height="6"/>
+    <rect x="320" y="185" width="22" height="35"/>
+    <rect x="324" y="178" width="14" height="7"/>
+    <rect x="350" y="192" width="18" height="28"/>
+  </g>
+  <!-- Building windows -->
+  <g fill="#ffd700" opacity="0.5">
+    <rect x="36" y="190" width="4" height="4"/>
+    <rect x="44" y="190" width="4" height="4"/>
+    <rect x="36" y="200" width="4" height="4"/>
+    <rect x="44" y="200" width="4" height="4"/>
+    <rect x="66" y="198" width="4" height="4"/>
+    <rect x="326" y="192" width="4" height="4"/>
+    <rect x="334" y="192" width="4" height="4"/>
+  </g>
+  <!-- Central furnace (big) -->
+  <g transform="translate(160,100)">
+    <!-- Furnace body -->
+    <rect x="0" y="40" width="80" height="80" rx="4" fill="#3a2a1a" stroke="#5a4a3a" stroke-width="2"/>
+    <rect x="4" y="44" width="72" height="72" rx="2" fill="#2a1a0a"/>
+    <!-- Furnace chimney -->
+    <rect x="30" y="10" width="20" height="34" fill="#4a3a2a"/>
+    <rect x="26" y="6" width="28" height="8" rx="2" fill="#5a4a3a"/>
+    <!-- Fire inside -->
+    <polygon points="20,100 40,60 60,100" fill="url(#fire)" opacity="0.9"/>
+    <polygon points="28,100 40,70 52,100" fill="#ffd700" opacity="0.7"/>
+    <polygon points="34,100 40,78 46,100" fill="#fff8e1" opacity="0.5"/>
+    <!-- Furnace glow -->
+    <circle cx="40" cy="85" r="50" fill="#ff6600" opacity="0.08"/>
+    <circle cx="40" cy="85" r="30" fill="#ff8800" opacity="0.12"/>
+    <!-- Furnace door -->
+    <rect x="22" y="80" width="36" height="28" rx="3" fill="none" stroke="#8a6a4a" stroke-width="2"/>
+    <rect x="26" y="84" width="28" height="20" rx="2" fill="#1a0a00"/>
+    <!-- Fire glow through door -->
+    <rect x="28" y="86" width="24" height="16" rx="1" fill="#ff4500" opacity="0.4"/>
+  </g>
+  <!-- Snowflakes -->
+  <g fill="#e1f5fe" opacity="0.7">
+    <circle cx="50" cy="30" r="2"/>
+    <circle cx="120" cy="50" r="1.5"/>
+    <circle cx="280" cy="25" r="2"/>
+    <circle cx="350" cy="60" r="1.5"/>
+    <circle cx="90" cy="80" r="1"/>
+    <circle cx="310" cy="90" r="1.5"/>
+    <circle cx="150" cy="40" r="1"/>
+    <circle cx="250" cy="55" r="2"/>
+    <circle cx="370" cy="120" r="1"/>
+    <circle cx="20" cy="110" r="1.5"/>
+    <circle cx="180" cy="20" r="1"/>
+    <circle cx="100" cy="140" r="1.5"/>
+    <circle cx="300" cy="140" r="1"/>
+  </g>
+  <!-- Pixel survivors (tiny) -->
+  <g>
+    <!-- Survivor 1 -->
+    <rect x="110" y="206" width="6" height="6" fill="#e8c8a0"/>
+    <rect x="108" y="212" width="10" height="10" fill="#4a6a9a"/>
+    <rect x="110" y="222" width="3" height="6" fill="#3a3a5a"/>
+    <rect x="115" y="222" width="3" height="6" fill="#3a3a5a"/>
+    <!-- Survivor 2 -->
+    <rect x="270" y="208" width="6" height="6" fill="#e8c8a0"/>
+    <rect x="268" y="214" width="10" height="8" fill="#8a4a4a"/>
+    <rect x="270" y="222" width="3" height="6" fill="#3a3a5a"/>
+    <rect x="275" y="222" width="3" height="6" fill="#3a3a5a"/>
+  </g>
+  <!-- Temperature indicator -->
+  <g transform="translate(16,20)">
+    <rect x="0" y="0" width="6" height="40" rx="3" fill="#1a3a5a" stroke="#4a6a9a" stroke-width="1"/>
+    <rect x="1" y="20" width="4" height="19" rx="2" fill="#ff4500"/>
+    <circle cx="3" cy="42" r="5" fill="#ff4500"/>
+    <text x="14" y="44" font-size="10" fill="#ff8c00" font-family="monospace">-32°C</text>
+  </g>
+  <!-- Title area glow -->
+  <ellipse cx="200" cy="260" rx="120" ry="8" fill="#ff6600" opacity="0.06"/>
+</svg>

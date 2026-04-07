@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+    <defs>
+      <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#1a0a0a"/>
+        <stop offset="50%" style="stop-color:#3a1a2a"/>
+        <stop offset="100%" style="stop-color:#1a0a0a"/>
+      </linearGradient>
+      <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#ffd700"/><stop offset="50%" style="stop-color:#fff5a0"/><stop offset="100%" style="stop-color:#ffd700"/>
+      </linearGradient>
+      <radialGradient id="cardglow"><stop offset="0%" style="stop-color:#ffd700;stop-opacity:0.4"/><stop offset="100%" style="stop-color:transparent"/></radialGradient>
+      <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/></filter>
+    </defs>
+    <rect width="800" height="500" fill="url(#bg3)"/>
+    <rect width="800" height="500" fill="url(#cardglow)"/>
+    <!-- 卡牌扇形展开 -->
+    <g filter="url(#shadow)">
+      <!-- 卡1 左 -->
+      <g transform="translate(240,100) rotate(-15,60,150)">
+        <rect x="0" y="0" width="120" height="170" rx="10" fill="#2a1a3a" stroke="#6c5ce7" stroke-width="2"/>
+        <rect x="8" y="8" width="104" height="120" rx="6" fill="#1a0a2a"/>
+        <text x="60" y="80" text-anchor="middle" font-size="48">🐉</text>
+        <rect x="8" y="136" width="104" height="26" rx="4" fill="#6c5ce7" opacity="0.3"/>
+        <text x="60" y="154" text-anchor="middle" font-size="11" fill="#bf9fff" font-family="sans-serif" font-weight="bold">SR 龙神</text>
+      </g>
+      <!-- 卡2 中偏左 -->
+      <g transform="translate(310,80) rotate(-5,60,150)">
+        <rect x="0" y="0" width="120" height="170" rx="10" fill="#2a1a3a" stroke="#a855f7" stroke-width="2"/>
+        <rect x="8" y="8" width="104" height="120" rx="6" fill="#1a0a2a"/>
+        <text x="60" y="80" text-anchor="middle" font-size="48">⚔️</text>
+        <rect x="8" y="136" width="104" height="26" rx="4" fill="#a855f7" opacity="0.3"/>
+        <text x="60" y="154" text-anchor="middle" font-size="11" fill="#d8a0ff" font-family="sans-serif" font-weight="bold">SSR 圣剑</text>
+      </g>
+      <!-- 卡3 中间(金色UR) -->
+      <g transform="translate(370,60)">
+        <rect x="0" y="0" width="130" height="180" rx="10" fill="#3a2a0a" stroke="url(#gold)" stroke-width="3"/>
+        <rect x="8" y="8" width="114" height="128" rx="6" fill="#2a1a0a"/>
+        <text x="65" y="86" text-anchor="middle" font-size="56">👑</text>
+        <rect x="8" y="144" width="114" height="28" rx="4" fill="#ffd700" opacity="0.3"/>
+        <text x="65" y="164" text-anchor="middle" font-size="13" fill="#ffd700" font-family="sans-serif" font-weight="bold">UR 神皇</text>
+        <!-- 光芒 -->
+        <line x1="65" y1="-20" x2="65" y2="-40" stroke="#ffd700" stroke-width="2" opacity="0.6"/>
+        <line x1="30" y1="-10" x2="15" y2="-30" stroke="#ffd700" stroke-width="2" opacity="0.4"/>
+        <line x1="100" y1="-10" x2="115" y2="-30" stroke="#ffd700" stroke-width="2" opacity="0.4"/>
+        <line x1="10" y1="10" x2="-10" y2="0" stroke="#ffd700" stroke-width="1.5" opacity="0.3"/>
+        <line x1="120" y1="10" x2="140" y2="0" stroke="#ffd700" stroke-width="1.5" opacity="0.3"/>
+      </g>
+      <!-- 卡4 中偏右 -->
+      <g transform="translate(450,80) rotate(5,60,150)">
+        <rect x="0" y="0" width="120" height="170" rx="10" fill="#2a1a3a" stroke="#a855f7" stroke-width="2"/>
+        <rect x="8" y="8" width="104" height="120" rx="6" fill="#1a0a2a"/>
+        <text x="60" y="80" text-anchor="middle" font-size="48">🔮</text>
+        <rect x="8" y="136" width="104" height="26" rx="4" fill="#a855f7" opacity="0.3"/>
+        <text x="60" y="154" text-anchor="middle" font-size="11" fill="#d8a0ff" font-family="sans-serif" font-weight="bold">SSR 魔晶</text>
+      </g>
+      <!-- 卡5 右 -->
+      <g transform="translate(510,100) rotate(15,60,150)">
+        <rect x="0" y="0" width="120" height="170" rx="10" fill="#2a1a3a" stroke="#6c5ce7" stroke-width="2"/>
+        <rect x="8" y="8" width="104" height="120" rx="6" fill="#1a0a2a"/>
+        <text x="60" y="80" text-anchor="middle" font-size="48">🌙</text>
+        <rect x="8" y="136" width="104" height="26" rx="4" fill="#6c5ce7" opacity="0.3"/>
+        <text x="60" y="154" text-anchor="middle" font-size="11" fill="#bf9fff" font-family="sans-serif" font-weight="bold">SR 月华</text>
+      </g>
+    </g>
+    <!-- 粒子/星星 -->
+    <circle cx="100" cy="80" r="3" fill="#ffd700" opacity="0.6"/>
+    <circle cx="700" cy="60" r="2.5" fill="#ffd700" opacity="0.5"/>
+    <circle cx="150" cy="400" r="2" fill="#ff9ff3" opacity="0.4"/>
+    <circle cx="650" cy="420" r="2.5" fill="#ff9ff3" opacity="0.5"/>
+    <circle cx="50" cy="250" r="2" fill="#fff" opacity="0.3"/>
+    <circle cx="750" cy="200" r="2" fill="#fff" opacity="0.4"/>
+    <!-- 概率文字 -->
+    <text x="400" y="340" text-anchor="middle" font-size="22" font-weight="900" fill="#ffd700" font-family="sans-serif" opacity="0.7">SSR 概率 45%!</text>
+    <text x="400" y="370" text-anchor="middle" font-size="14" fill="#ff9ff3" font-family="sans-serif" opacity="0.5">十连保底 · 必出好卡</text>
+    <text x="400" y="475" text-anchor="middle" font-size="20" font-weight="bold" fill="rgba(255,255,255,0.15)" font-family="sans-serif">GACHA LEGENDS</text>
+  </svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#001a33"/>
+      <stop offset="50%" style="stop-color:#003366"/>
+      <stop offset="100%" style="stop-color:#001122"/>
+    </linearGradient>
+    <radialGradient id="water"><stop offset="0%" style="stop-color:#0099ff;stop-opacity:0.15"/><stop offset="100%" style="stop-color:transparent"/></radialGradient>
+    <linearGradient id="kunbody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ccff"/>
+      <stop offset="100%" style="stop-color:#0066cc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#water)"/>
+  <!-- 水波纹 -->
+  <ellipse cx="400" cy="400" rx="350" ry="30" fill="none" stroke="#0088cc" stroke-width="1" opacity="0.2"/>
+  <ellipse cx="400" cy="420" rx="300" ry="25" fill="none" stroke="#0088cc" stroke-width="1" opacity="0.15"/>
+  <ellipse cx="400" cy="440" rx="250" ry="20" fill="none" stroke="#0088cc" stroke-width="1" opacity="0.1"/>
+  <!-- 小鲲(左下) -->
+  <g transform="translate(120,320) scale(0.5)">
+    <ellipse cx="60" cy="50" rx="50" ry="35" fill="#66ccff"/>
+    <circle cx="40" cy="40" r="8" fill="#fff"/><circle cx="42" cy="40" r="5" fill="#003"/>
+    <path d="M100,50 Q130,30 120,55 Q130,80 100,50" fill="#88ddff"/>
+  </g>
+  <!-- 中鲲(右下) -->
+  <g transform="translate(550,280) scale(0.7)">
+    <ellipse cx="70" cy="55" rx="60" ry="40" fill="#44aaee"/>
+    <circle cx="45" cy="42" r="10" fill="#fff"/><circle cx="47" cy="42" r="6" fill="#003"/>
+    <path d="M120,55 Q155,30 145,60 Q155,90 120,55" fill="#66ccff"/>
+    <path d="M30,30 Q40,10 55,25" fill="none" stroke="#66ccff" stroke-width="3"/>
+  </g>
+  <!-- 大鲲(中央) -->
+  <g transform="translate(280,100)">
+    <ellipse cx="120" cy="100" rx="110" ry="75" fill="url(#kunbody)"/>
+    <ellipse cx="120" cy="100" rx="95" ry="62" fill="#33bbee" opacity="0.5"/>
+    <!-- 眼睛 -->
+    <circle cx="80" cy="80" r="18" fill="#fff"/><circle cx="84" cy="80" r="11" fill="#003366"/>
+    <circle cx="88" cy="76" r="4" fill="#fff"/>
+    <!-- 嘴 -->
+    <path d="M75,115 Q100,135 125,115" stroke="#005588" stroke-width="3" fill="none"/>
+    <!-- 鳍 -->
+    <path d="M220,100 Q270,60 260,110 Q270,160 220,100" fill="#22aadd"/>
+    <!-- 头上角 -->
+    <path d="M90,30 Q100,0 115,25 Q125,-5 135,30" fill="#44ccff"/>
+    <!-- 腹部 -->
+    <ellipse cx="115" cy="130" rx="50" ry="25" fill="#88eeff" opacity="0.3"/>
+  </g>
+  <!-- 进化箭头 -->
+  <g transform="translate(160,370)">
+    <text x="0" y="0" font-size="28" fill="#ffdd57" opacity="0.6">→</text>
+  </g>
+  <g transform="translate(520,310)">
+    <text x="0" y="0" font-size="28" fill="#ffdd57" opacity="0.6">→</text>
+  </g>
+  <!-- 气泡 -->
+  <circle cx="200" cy="200" r="8" fill="none" stroke="#66ccff" stroke-width="1" opacity="0.3"/>
+  <circle cx="600" cy="150" r="6" fill="none" stroke="#66ccff" stroke-width="1" opacity="0.25"/>
+  <circle cx="350" cy="350" r="5" fill="none" stroke="#66ccff" stroke-width="1" opacity="0.2"/>
+  <circle cx="500" cy="180" r="10" fill="none" stroke="#66ccff" stroke-width="1" opacity="0.2"/>
+  <circle cx="150" cy="120" r="4" fill="none" stroke="#66ccff" stroke-width="1" opacity="0.3"/>
+  <circle cx="650" cy="280" r="7" fill="none" stroke="#66ccff" stroke-width="1" opacity="0.2"/>
+  <!-- 闪光粒子 -->
+  <circle cx="300" cy="60" r="2" fill="#fff" opacity="0.5"/>
+  <circle cx="550" cy="90" r="2" fill="#fff" opacity="0.4"/>
+  <circle cx="180" cy="250" r="1.5" fill="#ffdd57" opacity="0.4"/>
+  <circle cx="620" cy="220" r="1.5" fill="#ffdd57" opacity="0.3"/>
+  <!-- 标题 -->
+  <text x="400" y="475" text-anchor="middle" font-size="18" font-weight="bold" fill="rgba(255,255,255,0.12)" font-family="sans-serif">KUN EVOLUTION</text>
+</svg>

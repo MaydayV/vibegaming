@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+    <defs>
+      <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#1a0a2e"/>
+        <stop offset="50%" style="stop-color:#4a1a6b"/>
+        <stop offset="100%" style="stop-color:#2d1b4e"/>
+      </linearGradient>
+      <linearGradient id="road" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#333"/>
+        <stop offset="100%" style="stop-color:#444"/>
+      </linearGradient>
+    </defs>
+    <rect width="800" height="500" fill="url(#bg1)"/>
+    <!-- 道路 -->
+    <rect x="0" y="300" width="800" height="120" fill="url(#road)" rx="0"/>
+    <line x1="0" y1="360" x2="800" y2="360" stroke="#ffdd57" stroke-width="3" stroke-dasharray="40,20"/>
+    <!-- 停车位线 -->
+    <rect x="80" y="305" width="120" height="110" fill="none" stroke="#fff" stroke-width="2"/>
+    <rect x="220" y="305" width="120" height="110" fill="none" stroke="#fff" stroke-width="2"/>
+    <rect x="460" y="305" width="120" height="110" fill="none" stroke="#fff" stroke-width="2"/>
+    <rect x="600" y="305" width="120" height="110" fill="none" stroke="#fff" stroke-width="2"/>
+    <!-- 车辆 -->
+    <g transform="translate(100,320)">
+      <rect x="10" y="30" width="80" height="40" rx="10" fill="#ff6b6b"/>
+      <rect x="20" y="15" width="60" height="30" rx="8" fill="#ff8787"/>
+      <circle cx="25" cy="75" r="10" fill="#333"/><circle cx="75" cy="75" r="10" fill="#333"/>
+    </g>
+    <g transform="translate(240,320)">
+      <rect x="10" y="30" width="80" height="40" rx="10" fill="#48dbfb"/>
+      <rect x="20" y="15" width="60" height="30" rx="8" fill="#72effc"/>
+      <circle cx="25" cy="75" r="10" fill="#333"/><circle cx="75" cy="75" r="10" fill="#333"/>
+    </g>
+    <g transform="translate(480,320)">
+      <rect x="10" y="30" width="80" height="40" rx="10" fill="#ffa500"/>
+      <rect x="20" y="15" width="60" height="30" rx="8" fill="#ffbb33"/>
+      <circle cx="25" cy="75" r="10" fill="#333"/><circle cx="75" cy="75" r="10" fill="#333"/>
+    </g>
+    <!-- 建筑 -->
+    <rect x="60" y="140" width="100" height="160" rx="8" fill="#2a1a4e" stroke="#6c5ce7" stroke-width="1"/>
+    <rect x="75" y="160" width="30" height="25" rx="3" fill="#ffdd57" opacity="0.7"/>
+    <rect x="115" y="160" width="30" height="25" rx="3" fill="#48dbfb" opacity="0.5"/>
+    <rect x="75" y="200" width="30" height="25" rx="3" fill="#48dbfb" opacity="0.6"/>
+    <rect x="115" y="200" width="30" height="25" rx="3" fill="#ffdd57" opacity="0.4"/>
+    <rect x="250" y="100" width="120" height="200" rx="8" fill="#2a1a4e" stroke="#6c5ce7" stroke-width="1"/>
+    <rect x="270" y="120" width="35" height="25" rx="3" fill="#ffdd57" opacity="0.8"/>
+    <rect x="315" y="120" width="35" height="25" rx="3" fill="#ff9ff3" opacity="0.5"/>
+    <rect x="270" y="160" width="35" height="25" rx="3" fill="#48dbfb" opacity="0.6"/>
+    <rect x="315" y="160" width="35" height="25" rx="3" fill="#ffdd57" opacity="0.7"/>
+    <rect x="270" y="200" width="35" height="25" rx="3" fill="#ff9ff3" opacity="0.4"/>
+    <rect x="315" y="200" width="35" height="25" rx="3" fill="#48dbfb" opacity="0.5"/>
+    <rect x="500" y="160" width="90" height="140" rx="8" fill="#2a1a4e" stroke="#6c5ce7" stroke-width="1"/>
+    <rect x="515" y="180" width="25" height="20" rx="3" fill="#ffdd57" opacity="0.6"/>
+    <rect x="550" y="180" width="25" height="20" rx="3" fill="#48dbfb" opacity="0.7"/>
+    <rect x="650" y="120" width="110" height="180" rx="8" fill="#2a1a4e" stroke="#6c5ce7" stroke-width="1"/>
+    <!-- 星星 -->
+    <circle cx="50" cy="40" r="2" fill="#fff" opacity="0.8"/>
+    <circle cx="150" cy="60" r="1.5" fill="#fff" opacity="0.6"/>
+    <circle cx="350" cy="30" r="2" fill="#fff" opacity="0.7"/>
+    <circle cx="500" cy="50" r="1.5" fill="#fff" opacity="0.5"/>
+    <circle cx="700" cy="35" r="2" fill="#fff" opacity="0.8"/>
+    <circle cx="420" cy="70" r="1" fill="#fff" opacity="0.6"/>
+    <!-- 金币 -->
+    <circle cx="680" cy="270" r="18" fill="#ffd700" stroke="#ff8c00" stroke-width="2"/>
+    <text x="680" y="277" text-anchor="middle" font-size="18" font-weight="bold" fill="#8B6914">$</text>
+    <circle cx="720" cy="250" r="14" fill="#ffd700" stroke="#ff8c00" stroke-width="2"/>
+    <text x="720" y="256" text-anchor="middle" font-size="14" font-weight="bold" fill="#8B6914">$</text>
+    <!-- 标题 -->
+    <text x="400" y="475" text-anchor="middle" font-size="20" font-weight="bold" fill="rgba(255,255,255,0.15)" font-family="sans-serif">HAPPY PARKING</text>
+  </svg>

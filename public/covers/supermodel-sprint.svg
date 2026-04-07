@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#2d1b4e"/>
+    </linearGradient>
+    <linearGradient id="runway" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2a4e"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Stars -->
+  <circle cx="50" cy="40" r="1.5" fill="#fff" opacity="0.6"/>
+  <circle cx="120" cy="25" r="1" fill="#fff" opacity="0.4"/>
+  <circle cx="280" cy="35" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="350" cy="50" r="1" fill="#fff" opacity="0.3"/>
+  <circle cx="180" cy="20" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="320" cy="15" r="1.5" fill="#fff" opacity="0.4"/>
+  <!-- Runway -->
+  <polygon points="140,300 260,300 220,120 180,120" fill="url(#runway)" opacity="0.8"/>
+  <!-- Runway lines (gold) -->
+  <line x1="155" y1="300" x2="185" y2="120" stroke="#fbbf24" stroke-width="1.5" opacity="0.5"/>
+  <line x1="245" y1="300" x2="215" y2="120" stroke="#fbbf24" stroke-width="1.5" opacity="0.5"/>
+  <!-- Center dashed line -->
+  <line x1="200" y1="300" x2="200" y2="120" stroke="#fbbf24" stroke-width="1" opacity="0.3" stroke-dasharray="8,6"/>
+  <!-- Side walls (gold) -->
+  <rect x="130" y="200" width="4" height="100" fill="#b8860b" opacity="0.6" rx="2"/>
+  <rect x="266" y="200" width="4" height="100" fill="#b8860b" opacity="0.6" rx="2"/>
+  <!-- Spotlights -->
+  <circle cx="120" cy="160" r="4" fill="#fbbf24" opacity="0.8"/>
+  <line x1="120" y1="164" x2="120" y2="200" stroke="#666" stroke-width="2"/>
+  <circle cx="280" cy="170" r="4" fill="#fbbf24" opacity="0.8"/>
+  <line x1="280" y1="174" x2="280" y2="210" stroke="#666" stroke-width="2"/>
+  <!-- Spotlight beams -->
+  <polygon points="120,160 170,220 190,200" fill="#fbbf24" opacity="0.05"/>
+  <polygon points="280,170 230,230 210,210" fill="#fbbf24" opacity="0.05"/>
+  <!-- Character silhouette (stylized running figure) -->
+  <g transform="translate(200,210)">
+    <!-- Body -->
+    <ellipse cx="0" cy="-25" rx="8" ry="12" fill="url(#pink)"/>
+    <!-- Head -->
+    <circle cx="0" cy="-42" r="7" fill="#fcd5ce"/>
+    <!-- Hair -->
+    <ellipse cx="0" cy="-47" rx="8" ry="5" fill="#8b5cf6"/>
+    <!-- Legs (running pose) -->
+    <line x1="-3" y1="-13" x2="-10" y2="5" stroke="#fcd5ce" stroke-width="3" stroke-linecap="round"/>
+    <line x1="3" y1="-13" x2="12" y2="0" stroke="#fcd5ce" stroke-width="3" stroke-linecap="round"/>
+    <!-- Arms -->
+    <line x1="-6" y1="-30" x2="-14" y2="-20" stroke="#fcd5ce" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="6" y1="-30" x2="14" y2="-22" stroke="#fcd5ce" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Gate (good - green, left) -->
+  <g transform="translate(160,165)">
+    <rect x="-12" y="-30" width="3" height="30" fill="#22cc44" rx="1"/>
+    <rect x="9" y="-30" width="3" height="30" fill="#22cc44" rx="1"/>
+    <rect x="-12" y="-30" width="24" height="3" fill="#22cc44" rx="1"/>
+    <rect x="-10" y="-20" width="20" height="12" fill="#22cc44" opacity="0.15" rx="2"/>
+    <text x="0" y="-12" text-anchor="middle" fill="#fff" font-size="7" font-weight="bold">+30</text>
+  </g>
+  <!-- Gate (bad - red, right) -->
+  <g transform="translate(240,170)">
+    <rect x="-8" y="-22" width="2.5" height="22" fill="#cc2244" rx="1"/>
+    <rect x="5.5" y="-22" width="2.5" height="22" fill="#cc2244" rx="1"/>
+    <rect x="-8" y="-22" width="16" height="2.5" fill="#cc2244" rx="1"/>
+    <rect x="-6" y="-15" width="12" height="8" fill="#cc2244" opacity="0.1" rx="1"/>
+    <text x="0" y="-9" text-anchor="middle" fill="#fff" font-size="6" font-weight="bold">-10</text>
+  </g>
+  <!-- Diamonds (pink) -->
+  <polygon points="175,240 180,235 185,240 180,245" fill="#ff69b4" opacity="0.8"/>
+  <polygon points="215,235 220,230 225,235 220,240" fill="#ff69b4" opacity="0.7"/>
+  <polygon points="195,250 200,245 205,250 200,255" fill="#ff69b4" opacity="0.6"/>
+  <!-- Title -->
+  <text x="200" y="80" text-anchor="middle" fill="url(#gold)" font-size="36" font-weight="900" font-family="Arial,sans-serif">超模冲刺</text>
+  <text x="200" y="100" text-anchor="middle" fill="#9ca3af" font-size="13" font-family="Arial,sans-serif">T台跑酷 · 选门变美 · 收集钻石</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a3d6b"/>
+      <stop offset="100%" stop-color="#1a6b8a"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e5a82"/>
+      <stop offset="100%" stop-color="#063a5e"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff9a56"/>
+      <stop offset="100%" stop-color="#ff6b35"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="400" height="225" fill="url(#sky)"/>
+  <!-- Sun glow -->
+  <circle cx="320" cy="50" r="60" fill="#ff9a56" opacity="0.15"/>
+  <circle cx="320" cy="50" r="30" fill="url(#sun)" opacity="0.8"/>
+  <!-- Stars -->
+  <circle cx="40" cy="30" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="100" cy="20" r="1" fill="#fff" opacity="0.4"/>
+  <circle cx="180" cy="40" r="1.2" fill="#fff" opacity="0.3"/>
+  <circle cx="250" cy="15" r="1" fill="#fff" opacity="0.5"/>
+  <!-- Mountains -->
+  <polygon points="0,130 60,70 120,130" fill="#0d4a6a" opacity="0.5"/>
+  <polygon points="80,130 160,55 240,130" fill="#0b4060" opacity="0.6"/>
+  <polygon points="200,130 300,65 400,130" fill="#094058" opacity="0.5"/>
+  <!-- Water -->
+  <rect x="0" y="130" width="400" height="95" fill="url(#water)"/>
+  <path d="M0 140 Q50 132 100 140 Q150 148 200 140 Q250 132 300 140 Q350 148 400 140 V142 Q350 150 300 142 Q250 134 200 142 Q150 150 100 142 Q50 134 0 142Z" fill="#1a7aaa" opacity="0.3"/>
+  <path d="M0 160 Q50 152 100 160 Q150 168 200 160 Q250 152 300 160 Q350 168 400 160 V162 Q350 170 300 162 Q250 154 200 162 Q150 170 100 162 Q50 154 0 162Z" fill="#1a7aaa" opacity="0.2"/>
+  <!-- Fishing rod -->
+  <line x1="130" y1="40" x2="130" y2="115" stroke="#c8a87a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="130" y1="40" x2="240" y2="100" stroke="#c8a87a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Fishing line -->
+  <path d="M240 100 Q242 130 238 170" stroke="#fff" stroke-width="0.8" fill="none" opacity="0.6"/>
+  <!-- Bobber -->
+  <ellipse cx="238" cy="170" rx="5" ry="3" fill="#ff4444"/>
+  <ellipse cx="238" cy="170" rx="5" ry="2" fill="#ff6666"/>
+  <!-- Fish silhouettes -->
+  <g opacity="0.4">
+    <ellipse cx="60" cy="180" rx="14" ry="7" fill="#48dbfb"/>
+    <polygon points="46,180 36,173 36,187" fill="#48dbfb"/>
+  </g>
+  <g opacity="0.3">
+    <ellipse cx="310" cy="195" rx="18" ry="9" fill="#ff9f43"/>
+    <polygon points="292,195 278,186 278,204" fill="#ff9f43"/>
+  </g>
+  <g opacity="0.35">
+    <ellipse cx="170" cy="200" rx="12" ry="6" fill="#6dd400"/>
+    <polygon points="158,200 149,194 149,206" fill="#6dd400"/>
+  </g>
+  <!-- Splash effect -->
+  <circle cx="238" cy="168" r="8" fill="none" stroke="#fff" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="238" cy="168" r="14" fill="none" stroke="#fff" stroke-width="0.3" opacity="0.15"/>
+  <!-- Person silhouette on shore -->
+  <circle cx="128" cy="110" r="6" fill="#1a3a5a"/>
+  <rect x="125" y="116" width="6" height="14" rx="2" fill="#1a3a5a"/>
+</svg>

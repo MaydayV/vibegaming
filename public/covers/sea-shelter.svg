@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="40%" stop-color="#2d1b4e"/>
+      <stop offset="100%" stop-color="#0c3547"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e4d6e"/>
+      <stop offset="100%" stop-color="#051a2a"/>
+    </linearGradient>
+    <linearGradient id="raft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B6914"/>
+      <stop offset="100%" stop-color="#5C4033"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <!-- Stars -->
+  <circle cx="50" cy="30" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="120" cy="55" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="200" cy="20" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="280" cy="45" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="350" cy="25" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="90" cy="70" r="1" fill="#fff" opacity="0.4"/>
+  <circle cx="320" cy="60" r="1" fill="#fff" opacity="0.6"/>
+  <!-- Moon -->
+  <circle cx="320" cy="60" r="30" fill="#ffeebb" opacity="0.15"/>
+  <circle cx="320" cy="60" r="20" fill="#ffeebb" opacity="0.3"/>
+  <!-- Sea -->
+  <rect x="0" y="150" width="400" height="150" fill="url(#sea)"/>
+  <!-- Waves -->
+  <path d="M0 160 Q50 150 100 160 Q150 170 200 160 Q250 150 300 160 Q350 170 400 160 V300 H0Z" fill="#0a3d5c" opacity="0.6"/>
+  <path d="M0 175 Q60 165 120 175 Q180 185 240 175 Q300 165 360 175 Q380 180 400 175 V300 H0Z" fill="#072a3f" opacity="0.5"/>
+  <!-- Raft -->
+  <rect x="130" y="140" width="140" height="12" rx="3" fill="url(#raft)"/>
+  <rect x="135" y="140" width="25" height="12" rx="2" fill="#7a5c1e" opacity="0.7"/>
+  <rect x="165" y="140" width="25" height="12" rx="2" fill="#6b4e17" opacity="0.7"/>
+  <rect x="195" y="140" width="25" height="12" rx="2" fill="#7a5c1e" opacity="0.7"/>
+  <rect x="225" y="140" width="25" height="12" rx="2" fill="#6b4e17" opacity="0.7"/>
+  <!-- Mast -->
+  <rect x="198" y="90" width="4" height="52" fill="#5C4033"/>
+  <!-- Sail -->
+  <path d="M202 95 L240 120 L202 135Z" fill="#ddd" opacity="0.8"/>
+  <path d="M202 95 L240 120 L202 135Z" fill="none" stroke="#bbb" stroke-width="0.5"/>
+  <!-- Small shelter on raft -->
+  <rect x="145" y="120" width="35" height="22" fill="#5C4033"/>
+  <polygon points="145,120 162,105 180,120" fill="#8B4513"/>
+  <!-- Campfire glow -->
+  <circle cx="220" cy="138" r="8" fill="#ff6600" opacity="0.15"/>
+  <text x="218" y="140" font-size="12">🔥</text>
+  <!-- Fishing line -->
+  <line x1="255" y1="142" x2="280" y2="180" stroke="#aaa" stroke-width="0.8" opacity="0.6"/>
+  <text x="275" y="188" font-size="10">🐟</text>
+  <!-- Floating debris -->
+  <text x="60" y="175" font-size="14">🪵</text>
+  <text x="340" y="185" font-size="12">🧵</text>
+  <!-- Title area -->
+  <text x="200" y="240" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="bold" fill="#fff" opacity="0.95">末世海上避难所</text>
+  <text x="200" y="265" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#7ec8e3" opacity="0.8">SEA SHELTER</text>
+</svg>

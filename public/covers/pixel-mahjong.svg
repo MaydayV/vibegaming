@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a472a"/>
+      <stop offset="100%" stop-color="#0d2818"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Mahjong tiles -->
+  <g transform="translate(100,60)">
+    <!-- Tile 1 -->
+    <rect x="0" y="0" width="50" height="70" rx="6" fill="#f5f0e8" stroke="#c4b998" stroke-width="2"/>
+    <text x="25" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#cc3333">一</text>
+    <text x="25" y="55" text-anchor="middle" font-size="16" fill="#cc3333">万</text>
+    <!-- Tile 2 -->
+    <rect x="60" y="0" width="50" height="70" rx="6" fill="#f5f0e8" stroke="#c4b998" stroke-width="2"/>
+    <circle cx="85" cy="35" r="12" fill="none" stroke="#2266aa" stroke-width="3"/>
+    <text x="85" y="60" text-anchor="middle" font-size="14" fill="#2266aa">筒</text>
+    <!-- Tile 3 -->
+    <rect x="120" y="0" width="50" height="70" rx="6" fill="#f5f0e8" stroke="#c4b998" stroke-width="2"/>
+    <text x="145" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#228833">三</text>
+    <text x="145" y="55" text-anchor="middle" font-size="16" fill="#228833">条</text>
+    <!-- Tile 4 (back) -->
+    <rect x="190" y="0" width="50" height="70" rx="6" fill="#2d5a27" stroke="#1a3a18" stroke-width="2"/>
+    <text x="215" y="42" text-anchor="middle" font-size="22" fill="#4a8a3a">🀄</text>
+  </g>
+  <!-- Pixel decoration -->
+  <g fill="#ffd54f" opacity="0.6">
+    <rect x="30" y="160" width="8" height="8"/>
+    <rect x="50" y="170" width="8" height="8"/>
+    <rect x="40" y="180" width="8" height="8"/>
+    <rect x="330" y="160" width="8" height="8"/>
+    <rect x="350" y="170" width="8" height="8"/>
+    <rect x="340" y="180" width="8" height="8"/>
+  </g>
+  <!-- Title -->
+  <text x="200" y="200" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#ffd54f">像素麻将</text>
+  <text x="200" y="230" text-anchor="middle" font-family="monospace" font-size="14" fill="rgba(255,255,255,0.6)">经典国粹 · 像素重生</text>
+  <!-- Pixel border -->
+  <rect x="4" y="4" width="392" height="292" rx="8" fill="none" stroke="#ffd54f" stroke-width="2" opacity="0.3"/>
+</svg>

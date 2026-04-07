@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0077b6"/>
+      <stop offset="100%" stop-color="#023e8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#ocean)"/>
+  <!-- Water surface waves -->
+  <g opacity="0.15">
+    <path d="M0,40 Q50,30 100,40 T200,40 T300,40 T400,40 L400,60 L0,60Z" fill="#90e0ef"/>
+    <path d="M0,50 Q50,42 100,50 T200,50 T300,50 T400,50 L400,70 L0,70Z" fill="#48cae4"/>
+  </g>
+  <!-- Underwater light rays -->
+  <g opacity="0.06" fill="#90e0ef">
+    <polygon points="80,0 100,300 60,300"/>
+    <polygon points="200,0 230,300 170,300"/>
+    <polygon points="320,0 350,300 290,300"/>
+  </g>
+  <!-- Bubbles -->
+  <g fill="#90e0ef" opacity="0.3">
+    <circle cx="60" cy="80" r="4"/>
+    <circle cx="55" cy="90" r="2.5"/>
+    <circle cx="65" cy="100" r="1.5"/>
+    <circle cx="300" cy="120" r="3"/>
+    <circle cx="310" cy="130" r="2"/>
+    <circle cx="150" cy="200" r="3.5"/>
+    <circle cx="145" cy="215" r="2"/>
+    <circle cx="340" cy="180" r="2.5"/>
+  </g>
+  <!-- Seabed -->
+  <rect x="0" y="260" width="400" height="40" fill="#1a3a5c"/>
+  <g fill="#2a5a3c" opacity="0.5">
+    <rect x="30" y="252" width="4" height="16"/>
+    <rect x="26" y="248" width="3" height="10"/>
+    <rect x="36" y="250" width="3" height="12"/>
+    <rect x="100" y="254" width="4" height="14"/>
+    <rect x="96" y="250" width="3" height="10"/>
+    <rect x="250" y="252" width="4" height="16"/>
+    <rect x="254" y="250" width="3" height="12"/>
+    <rect x="350" y="254" width="4" height="14"/>
+    <rect x="346" y="248" width="3" height="10"/>
+  </g>
+  <!-- Pixel lobster (main character, centered) -->
+  <g transform="translate(155,100)">
+    <!-- Body -->
+    <rect x="20" y="20" width="50" height="24" rx="4" fill="#e53935"/>
+    <rect x="22" y="22" width="46" height="20" rx="3" fill="#ef5350"/>
+    <!-- Head -->
+    <rect x="60" y="16" width="20" height="18" rx="3" fill="#e53935"/>
+    <rect x="62" y="18" width="16" height="14" rx="2" fill="#ef5350"/>
+    <!-- Eyes -->
+    <circle cx="72" cy="22" r="3" fill="#fff"/>
+    <circle cx="72" cy="22" r="1.5" fill="#111"/>
+    <circle cx="78" cy="20" r="2.5" fill="#fff"/>
+    <circle cx="78" cy="20" r="1.2" fill="#111"/>
+    <!-- Antennae -->
+    <rect x="72" y="10" width="2" height="8" fill="#d32f2f" transform="rotate(-15,73,14)"/>
+    <rect x="78" y="8" width="2" height="8" fill="#d32f2f" transform="rotate(15,79,12)"/>
+    <circle cx="71" cy="8" r="2" fill="#ff8a80"/>
+    <circle cx="80" cy="6" r="2" fill="#ff8a80"/>
+    <!-- Claws -->
+    <g fill="#e53935">
+      <rect x="80" y="26" width="16" height="6" rx="2"/>
+      <rect x="92" y="22" width="6" height="6" rx="1"/>
+      <rect x="92" y="30" width="6" height="6" rx="1"/>
+    </g>
+    <g fill="#e53935">
+      <rect x="80" y="36" width="14" height="5" rx="2"/>
+      <rect x="90" y="33" width="5" height="5" rx="1"/>
+      <rect x="90" y="39" width="5" height="5" rx="1"/>
+    </g>
+    <!-- Tail segments -->
+    <rect x="10" y="24" width="14" height="16" rx="2" fill="#c62828"/>
+    <rect x="2" y="26" width="12" height="12" rx="2" fill="#b71c1c"/>
+    <polygon points="0,26 0,38 -8,32" fill="#c62828"/>
+    <!-- Legs -->
+    <g fill="#c62828" opacity="0.8">
+      <rect x="30" y="42" width="3" height="8"/>
+      <rect x="40" y="42" width="3" height="8"/>
+      <rect x="50" y="42" width="3" height="8"/>
+      <rect x="60" y="42" width="3" height="8"/>
+    </g>
+  </g>
+  <!-- Life stages (small icons) -->
+  <!-- Baby -->
+  <g transform="translate(40,170)">
+    <rect x="0" y="0" width="8" height="5" rx="2" fill="#ef9a9a"/>
+    <circle cx="8" cy="1" r="1" fill="#fff"/>
+    <text x="-2" y="18" font-size="7" fill="#90e0ef" font-family="monospace" opacity="0.6">幼年</text>
+  </g>
+  <!-- Arrow -->
+  <text x="72" y="177" font-size="12" fill="#90e0ef" opacity="0.4">→</text>
+  <!-- Teen -->
+  <g transform="translate(95,168)">
+    <rect x="0" y="0" width="14" height="8" rx="2" fill="#ef5350"/>
+    <circle cx="13" cy="2" r="1.5" fill="#fff"/>
+    <text x="-2" y="22" font-size="7" fill="#90e0ef" font-family="monospace" opacity="0.6">成长</text>
+  </g>
+  <!-- Arrow -->
+  <text x="132" y="177" font-size="12" fill="#90e0ef" opacity="0.4">→</text>
+  <!-- Adult (crown) -->
+  <g transform="translate(310,168)">
+    <rect x="0" y="4" width="18" height="10" rx="3" fill="#e53935"/>
+    <circle cx="17" cy="6" r="2" fill="#fff"/>
+    <circle cx="17" cy="6" r="1" fill="#111"/>
+    <!-- Crown -->
+    <polygon points="2,-2 5,4 8,-1 11,4 14,-2 16,4 0,4" fill="#ffd54f"/>
+    <text x="-4" y="28" font-size="7" fill="#90e0ef" font-family="monospace" opacity="0.6">龙虾王</text>
+  </g>
+  <!-- Arrow -->
+  <text x="290" y="177" font-size="12" fill="#90e0ef" opacity="0.4">→</text>
+  <!-- Coral decorations -->
+  <g transform="translate(330,240)" fill="#ff8a65" opacity="0.5">
+    <rect x="0" y="0" width="6" height="20"/>
+    <rect x="-4" y="-4" width="6" height="12" transform="rotate(-20,3,0)"/>
+    <rect x="4" y="-2" width="6" height="10" transform="rotate(15,7,0)"/>
+  </g>
+  <g transform="translate(60,240)" fill="#ce93d8" opacity="0.4">
+    <rect x="0" y="0" width="5" height="18"/>
+    <rect x="-3" y="-3" width="5" height="10" transform="rotate(-25,2,0)"/>
+    <rect x="3" y="-1" width="5" height="8" transform="rotate(20,5,0)"/>
+  </g>
+</svg>

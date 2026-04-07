@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+    <defs>
+      <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#0a1628"/>
+        <stop offset="50%" style="stop-color:#1a3a5c"/>
+        <stop offset="100%" style="stop-color:#0a1628"/>
+      </linearGradient>
+      <radialGradient id="glow1" cx="30%" cy="50%"><stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:0.3"/><stop offset="100%" style="stop-color:transparent"/></radialGradient>
+      <radialGradient id="glow2" cx="70%" cy="50%"><stop offset="0%" style="stop-color:#48dbfb;stop-opacity:0.3"/><stop offset="100%" style="stop-color:transparent"/></radialGradient>
+    </defs>
+    <rect width="800" height="500" fill="url(#bg2)"/>
+    <rect width="800" height="500" fill="url(#glow1)"/>
+    <rect width="800" height="500" fill="url(#glow2)"/>
+    <!-- 竞技场 -->
+    <ellipse cx="400" cy="380" rx="300" ry="60" fill="#1a2a4a" stroke="#4facfe" stroke-width="2" opacity="0.5"/>
+    <!-- 火焰宠物(左) -->
+    <g transform="translate(180,180)">
+      <circle cx="60" cy="80" r="55" fill="#ff6b6b"/>
+      <circle cx="60" cy="80" r="45" fill="#ff8787"/>
+      <circle cx="45" cy="70" r="10" fill="#fff"/><circle cx="46" cy="70" r="6" fill="#333"/>
+      <circle cx="75" cy="70" r="10" fill="#fff"/><circle cx="76" cy="70" r="6" fill="#333"/>
+      <path d="M45,95 Q60,108 75,95" stroke="#333" stroke-width="3" fill="none"/>
+      <!-- 火焰 -->
+      <path d="M40,30 Q50,0 60,25 Q70,-5 75,30 Q65,20 60,30 Q55,18 40,30Z" fill="#ffa500"/>
+      <path d="M48,30 Q55,10 60,25 Q65,8 68,30 Q63,22 60,28 Q55,20 48,30Z" fill="#ffdd57"/>
+      <!-- 拳头特效 -->
+      <text x="120" y="60" font-size="40" opacity="0.8">💥</text>
+    </g>
+    <!-- 水系宠物(右) -->
+    <g transform="translate(480,180)">
+      <circle cx="60" cy="80" r="55" fill="#48dbfb"/>
+      <circle cx="60" cy="80" r="45" fill="#72effc"/>
+      <circle cx="45" cy="70" r="10" fill="#fff"/><circle cx="44" cy="70" r="6" fill="#333"/>
+      <circle cx="75" cy="70" r="10" fill="#fff"/><circle cx="74" cy="70" r="6" fill="#333"/>
+      <path d="M45,95 Q60,108 75,95" stroke="#333" stroke-width="3" fill="none"/>
+      <!-- 水滴 -->
+      <path d="M55,20 Q60,5 65,20 Q65,30 60,32 Q55,30 55,20Z" fill="#48dbfb"/>
+      <path d="M35,25 Q38,15 42,25 Q42,32 38,33 Q35,32 35,25Z" fill="#48dbfb" opacity="0.7"/>
+      <path d="M78,25 Q82,15 85,25 Q85,32 82,33 Q78,32 78,25Z" fill="#48dbfb" opacity="0.7"/>
+    </g>
+    <!-- VS -->
+    <g transform="translate(370,220)">
+      <text x="30" y="50" text-anchor="middle" font-size="56" font-weight="900" fill="#ffdd57" font-family="Impact,sans-serif" stroke="#ff6b6b" stroke-width="2">VS</text>
+    </g>
+    <!-- 闪电 -->
+    <polygon points="390,160 400,200 415,195 405,240 420,190 405,195" fill="#ffdd57" opacity="0.8"/>
+    <!-- HP条 -->
+    <rect x="140" y="340" width="160" height="12" rx="6" fill="#333"/>
+    <rect x="140" y="340" width="120" height="12" rx="6" fill="#ff6b6b"/>
+    <rect x="500" y="340" width="160" height="12" rx="6" fill="#333"/>
+    <rect x="500" y="340" width="100" height="12" rx="6" fill="#48dbfb"/>
+    <!-- 星星装饰 -->
+    <circle cx="100" cy="50" r="2" fill="#fff" opacity="0.8"/>
+    <circle cx="300" cy="80" r="1.5" fill="#fff" opacity="0.6"/>
+    <circle cx="500" cy="40" r="2" fill="#fff" opacity="0.7"/>
+    <circle cx="700" cy="70" r="1.5" fill="#fff" opacity="0.5"/>
+    <circle cx="200" cy="100" r="1" fill="#fff" opacity="0.6"/>
+    <circle cx="600" cy="90" r="2" fill="#fff" opacity="0.4"/>
+    <text x="400" y="475" text-anchor="middle" font-size="20" font-weight="bold" fill="rgba(255,255,255,0.15)" font-family="sans-serif">PET BATTLE</text>
+  </svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <rect x="40" y="40" width="320" height="220" fill="#16213e" rx="8"/>
+  <text x="200" y="110" text-anchor="middle" font-size="48" fill="#f0c040" font-family="monospace">🦆</text>
+  <text x="200" y="160" text-anchor="middle" font-size="32" fill="#f0c040" font-weight="bold" font-family="monospace">像素抓鹅</text>
+  <text x="200" y="190" text-anchor="middle" font-size="14" fill="#80a0c0" font-family="monospace">Pixel Goose Catcher</text>
+  <rect x="80" y="220" width="32" height="32" fill="#e94560" rx="2"/>
+  <rect x="124" y="220" width="32" height="32" fill="#0f3460" rx="2"/>
+  <rect x="168" y="220" width="32" height="32" fill="#f0c040" rx="2"/>
+  <rect x="212" y="220" width="32" height="32" fill="#40f080" rx="2"/>
+  <rect x="256" y="220" width="32" height="32" fill="#e94560" rx="2"/>
+  <rect x="80" y="220" width="32" height="32" fill="none" stroke="#405080" stroke-width="1"/>
+  <rect x="124" y="220" width="32" height="32" fill="none" stroke="#405080" stroke-width="1"/>
+  <rect x="168" y="220" width="32" height="32" fill="none" stroke="#405080" stroke-width="1"/>
+  <rect x="212" y="220" width="32" height="32" fill="none" stroke="#405080" stroke-width="1"/>
+  <rect x="256" y="220" width="32" height="32" fill="none" stroke="#405080" stroke-width="1"/>
+</svg>

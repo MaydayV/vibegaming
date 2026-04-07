@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6b6b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff6b6b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Glow -->
+  <circle cx="200" cy="140" r="120" fill="url(#glow)"/>
+  <!-- Decorative particles -->
+  <g opacity="0.15" fill="#4ecdc4">
+    <circle cx="60" cy="50" r="4"/><circle cx="340" cy="80" r="3"/>
+    <circle cx="90" cy="230" r="5"/><circle cx="310" cy="250" r="4"/>
+    <circle cx="150" cy="40" r="3"/><circle cx="250" cy="260" r="3"/>
+    <circle cx="40" cy="150" r="3"/><circle cx="360" cy="180" r="4"/>
+  </g>
+  <!-- Radar chart background -->
+  <g transform="translate(200,130)" opacity="0.2" stroke="#4ecdc4" fill="none" stroke-width="1">
+    <polygon points="0,-60 52,-30 52,30 0,60 -52,30 -52,-30"/>
+    <polygon points="0,-40 35,-20 35,20 0,40 -35,20 -35,-20"/>
+    <polygon points="0,-20 17,-10 17,10 0,20 -17,10 -17,-20"/>
+    <line x1="0" y1="-60" x2="0" y2="60"/>
+    <line x1="-52" y1="-30" x2="52" y2="30"/>
+    <line x1="-52" y1="30" x2="52" y2="-30"/>
+  </g>
+  <!-- Radar data shape -->
+  <g transform="translate(200,130)">
+    <polygon points="0,-48 44,-18 36,27 0,42 -40,24 -28,-30" fill="#ff6b6b" fill-opacity="0.25" stroke="#ff6b6b" stroke-width="2"/>
+    <circle cx="0" cy="-48" r="3" fill="#ff6b6b"/>
+    <circle cx="44" cy="-18" r="3" fill="#ff6b6b"/>
+    <circle cx="36" cy="27" r="3" fill="#ff6b6b"/>
+    <circle cx="0" cy="42" r="3" fill="#ff6b6b"/>
+    <circle cx="-40" cy="24" r="3" fill="#ff6b6b"/>
+    <circle cx="-28" cy="-30" r="3" fill="#ff6b6b"/>
+  </g>
+  <!-- Dimension labels -->
+  <g font-family="sans-serif" font-size="10" fill="rgba(255,255,255,0.6)" text-anchor="middle">
+    <text x="200" y="62">🤖</text>
+    <text x="260" y="100">🎭</text>
+    <text x="250" y="170">🎯</text>
+    <text x="200" y="190">🎨</text>
+    <text x="148" y="170">🧠</text>
+    <text x="140" y="100">❤️</text>
+  </g>
+  <!-- Lobster emoji -->
+  <text x="200" y="145" font-size="36" text-anchor="middle" dominant-baseline="central">🦞</text>
+  <!-- Title area -->
+  <text x="200" y="240" font-family="sans-serif" font-size="14" font-weight="bold" fill="rgba(255,255,255,0.8)" text-anchor="middle">龙虾性格测试</text>
+  <text x="200" y="260" font-family="sans-serif" font-size="10" fill="rgba(255,255,255,0.4)" text-anchor="middle">OpenClaw Agent Personality Test</text>
+  <!-- Corner decorations -->
+  <g opacity="0.1" stroke="#ff6b6b" stroke-width="2" fill="none">
+    <path d="M10,30 L10,10 L30,10"/>
+    <path d="M370,10 L390,10 L390,30"/>
+    <path d="M390,270 L390,290 L370,290"/>
+    <path d="M30,290 L10,290 L10,270"/>
+  </g>
+</svg>

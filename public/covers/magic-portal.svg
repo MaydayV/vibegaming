@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs>
+<radialGradient id="bg" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#1a1035"/>
+<stop offset="100%" stop-color="#050210"/>
+</radialGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.4"/>
+<stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect width="400" height="300" fill="url(#bg)"/>
+<!-- Stars -->
+<circle cx="50" cy="30" r="1" fill="#e0e7ff" opacity="0.6"/>
+<circle cx="120" cy="60" r="1.5" fill="#e0e7ff" opacity="0.4"/>
+<circle cx="300" cy="40" r="1" fill="#e0e7ff" opacity="0.7"/>
+<circle cx="350" cy="80" r="1.2" fill="#e0e7ff" opacity="0.5"/>
+<circle cx="80" cy="250" r="1" fill="#e0e7ff" opacity="0.3"/>
+<circle cx="320" cy="220" r="1.5" fill="#e0e7ff" opacity="0.6"/>
+<circle cx="180" cy="20" r="0.8" fill="#e0e7ff" opacity="0.5"/>
+<circle cx="250" cy="270" r="1" fill="#e0e7ff" opacity="0.4"/>
+<!-- Glow -->
+<circle cx="200" cy="150" r="100" fill="url(#glow)"/>
+<!-- Portal ring -->
+<circle cx="200" cy="150" r="70" fill="none" stroke="#8b5cf6" stroke-width="3" opacity="0.8"/>
+<circle cx="200" cy="150" r="70" fill="none" stroke="#06b6d4" stroke-width="1" stroke-dasharray="8 12" opacity="0.4"/>
+<!-- Inner vortex hint -->
+<circle cx="200" cy="150" r="45" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.3"/>
+<circle cx="200" cy="150" r="25" fill="none" stroke="#a78bfa" stroke-width="0.5" opacity="0.2"/>
+<!-- Core -->
+<circle cx="200" cy="150" r="8" fill="#8b5cf6"/>
+<circle cx="198" cy="148" r="3" fill="white" opacity="0.7"/>
+<!-- Floating particles -->
+<circle cx="140" cy="100" r="3" fill="#8b5cf6" opacity="0.4"/>
+<circle cx="270" cy="120" r="2" fill="#06b6d4" opacity="0.5"/>
+<circle cx="160" cy="210" r="2.5" fill="#a78bfa" opacity="0.3"/>
+<circle cx="250" cy="200" r="2" fill="#06b6d4" opacity="0.4"/>
+<!-- Rune marks -->
+<circle cx="200" cy="80" r="3" fill="#8b5cf6" opacity="0.5"/>
+<circle cx="270" cy="150" r="3" fill="#8b5cf6" opacity="0.5"/>
+<circle cx="200" cy="220" r="3" fill="#8b5cf6" opacity="0.5"/>
+<circle cx="130" cy="150" r="3" fill="#8b5cf6" opacity="0.5"/>
+</svg>
