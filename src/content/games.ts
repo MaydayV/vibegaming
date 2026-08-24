@@ -13,6 +13,19 @@ export type Game = {
 
 export const games: Game[] = [
     {
+        slug: "snowsplash",
+        title: "SnowSplash: Snowflake Rescue Squad",
+        tagline: {
+            en: "A colorful 4v4 browser FPS where penguin teams freeze rivals, steal the flag, and dash home to score.",
+            zh: "一款缤纷的 4v4 浏览器 FPS：企鹅队伍冻结对手、夺取旗帜并冲回基地得分。"
+        },
+        url: "https://snow.samchon.cloud",
+        author: "JUNGWON SOHN",
+        tags: ["FPS", "Multiplayer", "Capture the Flag", "Web", "Codex"],
+        createdAt: "2026-08-24",
+        cover: "/covers/snowsplash.jpg"
+    },
+    {
         slug: "neon-drift",
         title: "Neon Drift",
         tagline: { en: "A 60-second cyber racer made with AI.", zh: "AI 制作的 60 秒赛博竞速。" },
