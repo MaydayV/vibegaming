@@ -19,7 +19,7 @@ export const games: Game[] = [
             en: "A colorful 4v4 browser FPS where penguin teams freeze rivals, steal the flag, and dash home to score.",
             zh: "一款缤纷的 4v4 浏览器 FPS：企鹅队伍冻结对手、夺取旗帜并冲回基地得分。"
         },
-        url: "https://snow.samchon.cloud",
+        url: "https://snow.sloki9637.com",
         author: "JUNGWON SOHN",
         tags: ["FPS", "Multiplayer", "Capture the Flag", "Web", "Codex"],
         createdAt: "2026-08-24",
