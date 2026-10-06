@@ -430,5 +430,15 @@ export const games: Game[] = [
         tags: ["Simulation", "Casual", "Pixel", "Web"],
         createdAt: "2026-04-07",
         cover: "/covers/crazy-farm.svg"
+    },
+    {
+        slug: "bash-fighter",
+        title: "Bash Fighter",
+        tagline: { en: "Open-source 20-player browser platform fighter, built and run by an AI agent.", zh: "开源的 20 人浏览器平台格斗游戏，由 AI 智能体开发和运营。" },
+        url: "https://bashfighter.com/",
+        author: "Bash Entertainment",
+        source: "https://github.com/Bash-Entertainment/bash-fighter",
+        tags: ["Fighting", "Multiplayer", "Web"],
+        createdAt: "2026-10-06"
     }
 ];
