@@ -13,6 +13,25 @@ export type Game = {
 
 export const games: Game[] = [
     {
+        "slug": "after-hours-room-214",
+        "title": "After Hours: The Call from Room 214 — Free Chapter",
+        "tagline": {
+            "en": "Two-player English mystery: each screen holds different clues to a call from a room with no phone. Free chapter; optional full case US$12.99/pair, one room, 90 days. AI-assisted text, art and code.",
+            "zh": "仅限两人的英文悬疑解谜：两端各握不同线索，共同追查无电话房间的来电。首章免费；完整案情可选，每对玩家12.99美元、一个房间、90天。文字、美术和代码使用AI辅助。"
+        },
+        "url": "https://tandemcasebook.itch.io/after-hours-room-214",
+        "author": "Tandem Casebook",
+        "source": "https://x.com/hghj75",
+        "tags": [
+            "Puzzle",
+            "Co-op",
+            "Mystery",
+            "Web",
+            "AI-assisted"
+        ],
+        "createdAt": "2026-10-09"
+    },
+    {
         slug: "neon-drift",
         title: "Neon Drift",
         tagline: { en: "A 60-second cyber racer made with AI.", zh: "AI 制作的 60 秒赛博竞速。" },
