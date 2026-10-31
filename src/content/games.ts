@@ -13,6 +13,19 @@ export type Game = {
 
 export const games: Game[] = [
     {
+        slug: "price-check-dailyplay",
+        title: "Price Check by DailyPlay",
+        tagline: {
+            en: "Guess historical grocery prices with higher/lower clues. Daily and unlimited modes; built with Codex assistance.",
+            zh: "根据高低提示猜历史商品价格，支持每日挑战和无限练习；由 Codex 辅助开发。"
+        },
+        url: "https://dailyplay.org/costcodle/",
+        author: "DailyPlay",
+        source: "https://dailyplay.org/costcodle/",
+        tags: ["Puzzle", "Estimation", "Daily", "Web"],
+        createdAt: "2026-10-31"
+    },
+    {
         slug: "neon-drift",
         title: "Neon Drift",
         tagline: { en: "A 60-second cyber racer made with AI.", zh: "AI 制作的 60 秒赛博竞速。" },
@@ -432,3 +445,4 @@ export const games: Game[] = [
         cover: "/covers/crazy-farm.svg"
     }
 ];
+
