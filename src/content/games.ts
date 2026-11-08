@@ -430,5 +430,18 @@ export const games: Game[] = [
         tags: ["Simulation", "Casual", "Pixel", "Web"],
         createdAt: "2026-04-07",
         cover: "/covers/crazy-farm.svg"
+    },
+    {
+        slug: "until-the-first-train",
+        title: "Until the First Train – Overtime Survival",
+        tagline: {
+            en: "A Vampire Survivors-like where an office worker clocks in at 6 PM and has to survive the night shift until the first train at 6 AM.",
+            zh: "类吸血鬼幸存者游戏：上班族晚上6点上班，必须熬过整晚加班，撑到早上6点的首班车！"
+        },
+        url: "https://yageun.hanpan.dev",
+        author: "hanpan",
+        tags: ["Survivors-like", "Roguelite", "Pixel", "Claude", "Web"],
+        createdAt: "2026-11-08",
+        cover: "/covers/until-the-first-train.jpg"
     }
 ];
