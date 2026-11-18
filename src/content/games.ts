@@ -13,6 +13,18 @@ export type Game = {
 
 export const games: Game[] = [
     {
+        slug: "number-route-brainilab",
+        title: "Number Route",
+        tagline: {
+            en: "Keep four numbers in order and choose operations to reach the target, calculating left to right. Free browser puzzle made with AI assistance.",
+            zh: "按原顺序使用四个数字，选择加、减、乘、除，从左到右计算以达到目标值。免费浏览器益智游戏，由 AI 辅助开发。"
+        },
+        url: "https://brainilabgames.com/games/number-route/",
+        author: "BrainiLab",
+        tags: ["Puzzle", "Math", "Web"],
+        createdAt: "2026-10-27"
+    },
+    {
         slug: "neon-drift",
         title: "Neon Drift",
         tagline: { en: "A 60-second cyber racer made with AI.", zh: "AI 制作的 60 秒赛博竞速。" },
