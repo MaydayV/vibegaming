@@ -430,5 +430,18 @@ export const games: Game[] = [
         tags: ["Simulation", "Casual", "Pixel", "Web"],
         createdAt: "2026-04-07",
         cover: "/covers/crazy-farm.svg"
+    },
+    {
+        slug: "crowd-pick",
+        title: "Crowd Pick",
+        tagline: {
+            en: "Guess the top-ranked answer across seven untimed survey-style questions.",
+            zh: "七道不限时的调查式题目，猜猜哪项答案最受欢迎。"
+        },
+        url: "https://noillirk.best/#practice",
+        author: "noillirkbest",
+        source: "https://vibegamer.io/game/crowd-pick",
+        tags: ["Puzzle", "Trivia", "Codex", "Web"],
+        createdAt: "2026-11-17"
     }
 ];
